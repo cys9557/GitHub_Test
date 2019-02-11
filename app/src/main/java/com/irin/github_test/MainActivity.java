@@ -13,5 +13,8 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Nice to meet you");
         
         //GitHub에서 데이터가 변경...
+        
+        //내가 원하는 추가 작업
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
